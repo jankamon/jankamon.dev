@@ -7,8 +7,13 @@ export default function AboutMe() {
   return (
     <article
       id="about"
-      className="flex flex-col md:flex-row w-full items-start justify-between gap-1 md:gap-8"
+      className="flex flex-col md:flex-row-reverse w-full items-start justify-between gap-1 md:gap-8"
     >
+      <img
+        className="w-44 h-44 rounded-2xl self-center"
+        src="/images/jan.jpg"
+        alt="Photo of Jan"
+      />
       <section className="flex flex-col w-full gap-2">
         <h1>Hi, Jan here 👋</h1>
         <p className="text-md">
@@ -31,11 +36,6 @@ export default function AboutMe() {
           <Socials />
         </div>
       </section>
-      <img
-        className="w-44 h-44 rounded-2xl self-center"
-        src="/images/jan.jpg"
-        alt="Photo of Jan"
-      />
     </article>
   );
 }
