@@ -15,7 +15,7 @@ export const projects: Project[] = [
       "TypeScript",
     ],
     url: "https://hikepack.app",
-    image: "/images/projects/hikepack.png",
+    image: "/images/projects/hikepack-screen.png",
   },
   {
     title: "MyPocketSettlement",
@@ -33,6 +33,6 @@ export const projects: Project[] = [
       "TypeScript",
     ],
     url: "https://mypocketsettlement.com",
-    image: "/images/projects/mypocketsettlement.png",
+    image: "/images/projects/mypocketsettlement-screen.png",
   },
 ];

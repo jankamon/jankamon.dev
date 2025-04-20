@@ -13,11 +13,11 @@ export default function Projects() {
             className="flex flex-col w-full justify-between gap-2 border border-gray-500/50 rounded-xl p-4 shadow-md"
           >
             <img
-              className="w-full h-auto rounded-lg shadow-md"
+              className="w-full h-auto shadow-md p-2"
               src={project.image}
               alt={project.title}
-              width={500}
-              height={300}
+              width={300}
+              height={200}
             />
             <p className="text-lg leading-5 font-semibold">{project.title}</p>
             <p className="text-xs font-semibold text-gray-500">

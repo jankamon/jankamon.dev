@@ -12,7 +12,7 @@ export const skills: SkillItem[] = [
   },
   {
     name: "What I'm trying-out right now",
-    description: "PixiJS, Docker",
+    description: "PixiJS, Docker, RabbitMQ",
   },
   {
     name: "What I have at least a little knowledge in",

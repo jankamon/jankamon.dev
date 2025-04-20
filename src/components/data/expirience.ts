@@ -13,7 +13,7 @@ export const workExperience: ExperienceItem[] = [
       "Worked directly with clients to define requirements, plan sprints, and deliver tailored software solutions.",
       "Integrated third-party services and APIs, managed deployments, and provided long-term technical support.",
     ],
-    logo: "/images/wloczega-logo.png",
+    logo: "/images/logos/wloczega-logo.png",
   },
   {
     title: "Włóczęga.pl",
@@ -25,7 +25,7 @@ export const workExperience: ExperienceItem[] = [
       "Coordinated the work of digital marketers, copywriters, graphic designers, and SEO specialists.",
       "Handled analytics implementation and insights using Facebook Pixel and Google Analytics.",
     ],
-    logo: "/images/wloczega-logo.png",
+    logo: "/images/logos/wloczega-logo.png",
     url: "https://wloczega.pl",
   },
   {
@@ -39,7 +39,7 @@ export const workExperience: ExperienceItem[] = [
       "Planned and executed digital marketing campaigns across Meta (Facebook/Instagram) and Google Ads platforms.",
       "Managed web servers, performed regular backups, and ensured website security and uptime for client projects.",
     ],
-    logo: "/images/digital-mind-logo.png",
+    logo: "/images/logos/digital-mind-logo.png",
   },
 ];
 
@@ -54,7 +54,7 @@ export const educationExperience: ExperienceItem[] = [
       "I’ve built several personal and freelance projects, allowing me to gain hands-on experience with both frontend and backend development, as well as deployment and version control (Git).",
       "Self-learning has taught me discipline, problem-solving, and how to adapt quickly to new technologies and challenges.",
     ],
-    logo: "/images/wloczega-logo.png",
+    logo: "/images/logos/wloczega-logo.png",
   },
   {
     title: "Zespół Szkół nr 1 w Nowym Targu",
@@ -64,6 +64,6 @@ export const educationExperience: ExperienceItem[] = [
       "I graduated from a technical secondary school with a specialization in Advertising Organization, where I gained knowledge in marketing, advertising psychology, and planning and executing promotional campaigns.",
       "I participated in promotional projects and internships that helped me develop skills in creating advertising materials and working with clients.",
     ],
-    logo: "/images/zs1-logo.png",
+    logo: "/images/logos/zs1-logo.png",
   },
 ];
