@@ -13,7 +13,7 @@ export const workExperience: ExperienceItem[] = [
       "Worked directly with clients to define requirements, plan sprints, and deliver tailored software solutions.",
       "Integrated third-party services and APIs, managed deployments, and provided long-term technical support.",
     ],
-    logo: "/images/logos/wloczega-logo.png",
+    logo: "/images/logos/jan-kamon-logo.png",
   },
   {
     title: "Włóczęga.pl",
@@ -54,7 +54,7 @@ export const educationExperience: ExperienceItem[] = [
       "I’ve built several personal and freelance projects, allowing me to gain hands-on experience with both frontend and backend development, as well as deployment and version control (Git).",
       "Self-learning has taught me discipline, problem-solving, and how to adapt quickly to new technologies and challenges.",
     ],
-    logo: "/images/logos/wloczega-logo.png",
+    logo: "/images/logos/jan-kamon-logo.png",
   },
   {
     title: "Zespół Szkół nr 1 w Nowym Targu",
