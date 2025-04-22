@@ -4,8 +4,6 @@ import ExperienceItem from "../types/expirience.type";
 import VisitButton from "./ui/VisitButton";
 import { workExperience, educationExperience } from "./data/expirience";
 
-
-
 export default function Experience() {
   const [isWorkTab, setIsWorkTab] = useState(true);
   const currentExperience = isWorkTab ? workExperience : educationExperience;
@@ -15,7 +13,7 @@ export default function Experience() {
       <h2>Experience</h2>
       <TabSwitcher isWorkTab={isWorkTab} setIsWorkTab={setIsWorkTab} />
       <section className="flex flex-col w-full border-1 rounded-xl border-gray-600/50">
-        <ul className="flex flex-col gap-8 ml-10 p-4 border-l-1 border-gray-500/50">
+        <ul className="flex flex-col gap-8 ml-10 p-4 pr-0 md:pr-4 border-l-1 border-gray-500/50">
           {currentExperience.map((item: ExperienceItem, index) => (
             <li key={index} className="relative right-10 flex gap-4">
               <img
