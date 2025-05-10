@@ -11,7 +11,7 @@ export const workExperience: ExperienceItem[] = [
       "Created scalable backend APIs with NestJS and Express, including authentication, authorization, and data validation.",
       "Handled database architecture and optimization for performance and scalability using PostgreSQL.",
       "Worked directly with clients to define requirements, plan sprints, and deliver tailored software solutions.",
-      "Integrated third-party services and APIs, managed deployments, and provided long-term technical support.",
+      "Integrated third-party services and APIs (Stripe, Meta, Google), managed deployments, and provided long-term technical support.",
     ],
     logo: "/images/logos/jan-kamon-logo.png",
   },

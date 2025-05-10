@@ -12,11 +12,11 @@ export const skills: SkillItem[] = [
   },
   {
     name: "What I'm trying-out right now",
-    description: "PixiJS, Docker, RabbitMQ",
+    description: "Golang, PixiJS, Docker, RabbitMQ",
   },
   {
     name: "What I have at least a little knowledge in",
-    description: "MongoDB, Golang, C++, C#, PHP, Python",
+    description: "C++, C#, PHP, Python, MongoDB, Redis",
   },
   {
     name: "Not strictly dev, but still handy",
@@ -28,7 +28,7 @@ export const skills: SkillItem[] = [
 export const languages: LanguageItem[] = [
   {
     name: "English",
-    level: "Professional",
+    level: "Business",
   },
   {
     name: "Polish",
