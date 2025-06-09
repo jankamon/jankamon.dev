@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <article id="contact">
+    <article
+      id="contact"
+      className="flex flex-col items-start justify-start w-full h-172"
+    >
       <h2>Contact</h2>
       <section className="flex flex-col w-full gap-2">
         <p className="text-sm font-semibold text-gray-500">

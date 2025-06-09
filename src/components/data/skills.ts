@@ -34,8 +34,4 @@ export const languages: LanguageItem[] = [
     name: "Polish",
     level: "Native",
   },
-  {
-    name: "Interslavic",
-    level: "Basic",
-  },
 ];

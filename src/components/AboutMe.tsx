@@ -27,7 +27,7 @@ export default function AboutMe() {
         <div className="flex items-center gap-8 mt-2">
           <a
             className="flex items-center gap-1 w-fit text-sm font-semibold border border-gray-500/50 rounded-md shadow-sm hover:bg-gray-500 transition duration-200 px-5 py-1 cursor-pointer"
-            href="/resume.pdf"
+            href="/fullstack-jankamon-resume.pdf"
             target="_blank"
           >
             Resume

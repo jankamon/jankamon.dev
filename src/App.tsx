@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <main className="flex flex-col items-center justify-items-center w-full md:w-2/5 mx-auto">
+    <main className="flex flex-col items-center justify-items-center w-full md:w-3/5 xl:w-2/5 mx-auto">
       <Menu />
       <div className="flex flex-col w-full items-start justify-start gap-8 p-4">
         <AboutMe />
