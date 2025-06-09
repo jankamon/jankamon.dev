@@ -4,7 +4,7 @@ export const skills: SkillItem[] = [
   {
     name: "What I love",
     description:
-      "TypeScript, JavaScript, React, Next.js, React Native (Expo), NestJS, Express.js, Node.js, PostgreSQL, Tailwind CSS, CSS & pre-processors, Unit Testing (Jest)",
+      "TypeScript, JavaScript, React, Next.js, React Native (Expo), NestJS, Express.js, Node.js, PostgreSQL, Tailwind CSS, CSS & pre-processors, Unit Testing (Jest), Docker",
   },
   {
     name: "What I know well, but don't necessarily love",
@@ -12,7 +12,7 @@ export const skills: SkillItem[] = [
   },
   {
     name: "What I'm trying-out right now",
-    description: "Golang, PixiJS, Docker, RabbitMQ",
+    description: "Golang, PixiJS, Kubernetes, RabbitMQ",
   },
   {
     name: "What I have at least a little knowledge in",
