@@ -23,6 +23,16 @@ export default function Projects() {
             <p className="text-xs font-semibold text-gray-500">
               {project.description}
             </p>
+            {project.challenges && (
+              <div className="text-xs text-gray-500">
+                <p className="font-semibold">Interesting challenges:</p>
+                <ul className="list-disc pl-4">
+                  {project.challenges.map((challenge, index) => (
+                    <li key={index}>{challenge}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <div className="flex flex-wrap gap-1 mt-2">
               {project.stack.map((stack, index) => (
                 <StackBadge key={index} label={stack} />
