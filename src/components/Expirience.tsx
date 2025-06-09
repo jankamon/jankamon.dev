@@ -34,12 +34,17 @@ export default function Experience() {
                     <li key={index}>{desc}</li>
                   ))}
                 </ul>
-                {item.url && (
-                  <VisitButton
-                    url={item.url}
-                    label="Visit Włóczęga.pl"
-                    marginTop={2}
-                  />
+                {item.urls && (
+                  <div className="flex flex-wrap gap-1 mt-2">
+                    {Object.entries(item.urls).map(([label, url], index) => (
+                      <VisitButton
+                        key={index}
+                        url={url}
+                        label={`Visit ${label}`}
+                        marginTop={0}
+                      />
+                    ))}
+                  </div>
                 )}
               </div>
             </li>

@@ -16,17 +16,20 @@ export const workExperience: ExperienceItem[] = [
     logo: "/images/logos/jan-kamon-logo.png",
   },
   {
-    title: "Włóczęga.pl",
+    title: "Włóczęga.pl & TheKoszulki.pl",
     subtitle: "Founder & Web Developer",
     duration: "2020 - 2023",
     description: [
-      "Maintained and developed a PrestaShop-based online store and multiple WordPress blogs.",
+      "Maintained and developed a PrestaShop-based online stores and multiple WordPress blogs.",
       "Implemented JavaScript, PHP and MySQL enhancements to improve functionality, user experience and boost sales.",
       "Coordinated the work of digital marketers, copywriters, graphic designers, and SEO specialists.",
       "Handled analytics implementation and insights using Facebook Pixel and Google Analytics.",
     ],
     logo: "/images/logos/wloczega-logo.png",
-    url: "https://wloczega.pl",
+    urls: {
+      "Włóczęga.pl": "https://wloczega.pl",
+      "TheKoszulki.pl": "https://thekoszulki.pl",
+    },
   },
   {
     title: "Digital Mind",

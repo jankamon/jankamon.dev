@@ -4,7 +4,9 @@ type ExperienceItem = {
   duration: string;
   description: string[];
   logo: string;
-  url?: string;
+  urls?: {
+    [key: string]: string;
+  };
 };
 
 export default ExperienceItem;
